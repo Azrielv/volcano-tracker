@@ -1,0 +1,22 @@
+{
+  "name": "global-volcano-tracker",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Global Multi-API Volcano Tracker — USGS + NASA EONET + Open-Meteo, satellite tactical map",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.6",
+    "maplibre-gl": "^5.6.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.3"
+  }
+}
